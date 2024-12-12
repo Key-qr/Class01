@@ -1,0 +1,80 @@
+Celda de código
+
+#Celda de código
+4 + 5
+9
+
+Tipos de datos básicos
+
+[1] #Crear una variable
+x = 25
+
+[2] #Consultar el contenido de una variable
+x
+25
+
+[3] # Asignación múltiple de variables
+x, y, z = 1,2,3
+
+[4] x
+1
+
+[5] y
+2
+
+[6] x,y,z
+(1, 2, 3)
+  
+Datos numéricos
+
+[7] a,b = 25,7
+
+[8] a + b
+32
+
+[9] a - b
+18
+
+[10] a * b
+175
+
+[11] #División real
+a / b
+3.5714285714285716
+
+[12] #División entera
+a // b
+3
+
+[13] #Residuo (Operador módulo)
+a % b
+4
+
+Al tener diversas operaciones y consultas dentro de una misma celda de código, todas las operaciones son ejecutadas pero solo la última consulta será visible en el output.
+
+
+[14] c = a / b
+    a, b, c
+(25, 7, 3.5714285714285716)
+
+[15] #Consultar el tipo de dato de una variable
+type(a), type(b), type(c)
+(int, int, float)
+
+[16] c
+3.5714285714285716
+
+[17] #Función útil de redondeo, no requiere importar ningún paquete o módulo adicional round(c, 2)
+3.57
+
+[18] #Operador exponencial
+24 ** 7
+4586471424
+
+[19] #Números muy grandes son soportados en Python
+5424157445487845 ** 10
+22045648154535420669791966099970530509388976806942539996758281713252470649091673608807910038511765858130804072336148189068515154298222037454151067234384765625
+
+[20] #Calculando una raiz como la inversa de la exponencial
+36 ** (1/5)
+2.0476725110792193
